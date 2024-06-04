@@ -1,0 +1,6 @@
+<launch>
+    <include file="$(find web_speech_recognition)/launch/web_speech_recognition_jp.launch" />
+    <include file="$(find hsr_navigation_library)/launch/hsr_nav.launch" />
+    <include file="$(find hsrb_mapping)/launch/load_location_file.launch" />
+    <!-- <node pkg="sobits_open" type="main" name="main_node" output="screen"/> -->
+</launch>
